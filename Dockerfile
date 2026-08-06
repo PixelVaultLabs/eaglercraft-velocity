@@ -8,4 +8,4 @@ COPY plugins /server/plugins
 
 EXPOSE 25565
 
-CMD ["java", "-Xmx1G", "-jar", "server.jar"]
+CMD ["java", "-Xmx1G", "-jar", "server.jar", "--config", "velocity.toml"]
