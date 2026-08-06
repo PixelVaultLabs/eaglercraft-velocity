@@ -25,7 +25,7 @@ enable-player-address-logging = false
 
 [servers]
 
-stolencraft = "stolencraft.falixsrv.me:25565"
+stolencraft = "168.119.78.155:55376"
 
 try = [
     "stolencraft"
