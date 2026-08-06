@@ -8,7 +8,9 @@ show-max-players = 100
 
 online-mode = false
 
-player-info-forwarding-mode = "modern"
+force-key-authentication = false
+
+player-info-forwarding-mode = "none"
 
 forwarding-secret-file = "forwarding.secret"
 
