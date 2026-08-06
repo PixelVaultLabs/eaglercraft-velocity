@@ -8,11 +8,7 @@ show-max-players = 100
 
 online-mode = false
 
-force-key-authentication = false
-
 player-info-forwarding-mode = "none"
-
-forwarding-secret-file = "forwarding.secret"
 
 announce-forge = false
 
@@ -69,5 +65,3 @@ enabled = false
 port = 25565
 
 map = "Velocity"
-
-show-max-players = 100
