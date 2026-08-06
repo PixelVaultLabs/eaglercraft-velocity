@@ -6,8 +6,8 @@ COPY server.jar .
 COPY velocity.toml .
 COPY plugins ./plugins
 
-RUN echo "===== VELOCITY CONFIG CHECK =====" && cat velocity.toml
+RUN rm -f *.toml
 
-EXPOSE 25565
+COPY velocity.toml .
 
 CMD ["java", "-Xmx1G", "-jar", "server.jar"]
