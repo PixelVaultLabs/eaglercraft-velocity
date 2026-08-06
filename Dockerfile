@@ -2,9 +2,9 @@ FROM eclipse-temurin:25-jre
 
 WORKDIR /server
 
-COPY server.jar server.jar
-COPY velocity.toml velocity.toml
-COPY plugins plugins
+COPY server.jar /server/server.jar
+COPY velocity.toml /server/velocity.toml
+COPY plugins /server/plugins
 
 EXPOSE 25565
 
